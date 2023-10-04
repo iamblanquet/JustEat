@@ -1,0 +1,16 @@
+body {
+    background-color: #212529; /* Fondo oscuro por defecto */
+    color: #acd9b2; /* Texto en blanco por defecto */
+}
+
+.container {
+    background-color: #212529;
+}
+
+
+
+.btn-primary {
+    background-color: #acd9b2; /* Cambia el color de fondo del botón */
+    color: #212529; /* Cambia el color del texto del botón */
+}
+

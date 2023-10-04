@@ -1,0 +1,92 @@
+/* Estilos para el contenedor principal */
+body{   font-family: 'Quicksand', sans-serif;   
+    background-color: #212529;      }
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrado horizontal */
+  justify-content: center; /* Centrado vertical */
+  height: 100vh; /* 100% del alto de la ventana (viewport height) */
+  font-family: 'Quicksand', sans-serif; /* Fuente personalizada */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para el título */
+.title {
+  font-size: 70px;
+  margin-bottom: 20px;
+  text-align:center;
+  color: #acd9b2;
+}
+
+/* Estilos para el formulario y el buscador */
+.buscador-form {
+  display: flex;
+  flex-direction: row; /* Mostrar los elementos en línea */
+  align-items: center;
+  width: 850px; /* Centrado vertical */ 
+  
+  
+}
+
+.buscar {
+  flex: 1; /* Toma todo el espacio restante */
+  padding: 10px;
+  margin-right: 10px; /* Espacio entre el input y el botón */
+  font-size: 18px;
+}
+
+.buscar-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  width: 150px;
+  background-color: #acd9b2;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.buscar-btn:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .buscar-btn:active {
+    transform: scale(0.95);
+  }
+  
+  .buscar-btn:focus {
+    border: 2px solid grey;
+  }
+
+#searchInput:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  #searchInput:active {
+    transform: scale(0.95);
+  }
+  
+  #searchInput:focus {
+    border: 2px solid grey;
+  }
+
+
+  
+.buscar{
+    font-size: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    
+}
+

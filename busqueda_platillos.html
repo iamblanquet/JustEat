@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style_buscador.css">
+
+
+
+  
+  <title>JustEat</title>
+</head>
+<body>
+ 
+      <div class="collapse navbar-collapse" id="custom-collapse">
+        <ul class="nav navbar-nav navbar-right" id="cerrar">
+          <li><a href="logout_user.php">CERRAR SESION</a></li>
+        </div>
+  <div class="main">
+    <h1 class="title">JustEat</h1>
+    <form action="busqueda_platillos.php" method="post" class="buscador-form">
+      <input type="text" id="searchInput"  name="terminos_busqueda" placeholder="¡No seas tímido, busca tu comida favorita y dale rienda suelta a tu paladar!" class="buscar">
+      <input type="submit" id="searchBtn" value="Buscar" class="buscar-btn">
+    </form>
+  </div>
+</body>
+</html>
